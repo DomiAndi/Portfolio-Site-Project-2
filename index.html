@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Leslie Jimenez, a web developer passionate about building responsive and user-friendly web applications.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body style="font-family: 'Work Sans', sans-serif;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Leslie Jimenez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Title Section -->
+    <section id="title" class="hello py-5">
+        <div class="container text-center">
+            <h1 class="fw-bold">Hi, I'm Leslie Jimenez</h1>
+            <p>Welcome to my portfolio. I'm a web developer, programmer, and cybersecurity professional with a strong
+                passion for creating dynamic, responsive, and user-friendly applications. My focus also includes Data
+                Science to optimize solutions and secure systems.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold">Portfolio</h2>
+            <div class="row mt-4">
+
+                <!-- Web Projects -->
+                <div class="col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <img src="./assets/Muestra.png" class="img-fluid" alt="E-commerce Web App">
+                        <h3 class="mt-3">E-commerce Web App</h3>
+                        <p>A beautifully designed portfolio website showcasing my skills and projects.</p>
+                        <a target="_blank" href="https://github.com/DomiAndi/Analisis_Siniestros_Viales"
+                            class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Data Projects -->
+                <div class="col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <img src="./assets/machinelearning.png" class="img-fluid" alt="Machine Learning Project">
+                        <h3 class="mt-3">Machine Learning - Modelo de Recomendación de Juegos en Steam</h3>
+                        <p>Interactive dashboards powered by a machine learning model using FastAPI and backend
+                            integration, visualizing trends in Steam game reviews and performance.</p>
+                        <a target="_blank" href="https://github.com/DomiAndi/PI_Steam_Games_MLOps"
+                            class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="portfolio-item">
+                        <img src="./assets/Siniestros.png" class="img-fluid" alt="Análisis de Siniestros Viales">
+                        <h3 class="mt-3">Análisis de Siniestros Viales en Buenos Aires</h3>
+                        <p>A Power BI dashboard for analyzing traffic accidents in CABA, Argentina, with data insights.
+                        </p>
+                        <a target="_blank"
+                            href="https://github.com/DomiAndi/Analisis_Siniestros_Viales?tab=readme-ov-file"
+                            class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold">About Me</h2>
+            <div class="row align-items-center mt-4">
+                <div class="col-md-4">
+                    <img src="./assets/profile.jfif" class="img-fluid square-img" alt="About Me">
+                </div>
+                <div class="col-md-6">
+                    <p>My transition from programming to Data Science and cybersecurity has allowed me to combine
+                        technical and creative skills to develop robust and functional web applications. I'm currently
+                        specializing in full-stack development, Data Science, and implementing security measures to
+                        protect critical projects and data.</p>
+                    <a target="_blank" href="https://www.linkedin.com/in/username" class="btn btn-primary">Connect on
+                        LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold">Skills</h2>
+            <div class="row mt-4">
+                <!-- Programming Skills -->
+                <div class="col-md-4">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>Golang (in progress)</li>
+                        <li>Ruby</li>
+                        <li>Shell Script</li>
+                        <li>GNU Bash</li>
+                    </ul>
+                </div>
+                <!-- Frameworks Skills -->
+                <div class="col-md-4">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>Ruby on Rails</li>
+                    </ul>
+                </div>
+                <!-- Other Skills -->
+                <div class="col-md-4">
+                    <h3>Others</h3>
+                    <ul>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Jupyter Notebooks</li>
+                        <li>Excel</li>
+                        <li>Power BI</li>
+                        <li>Visual Studio</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>Anaconda</li>
+                        <li>Responsive Design</li>
+                        <li>SCRUM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 bg-dark text-white text-center">
+        <p>&copy; 2025 Leslie Jimenez. All rights reserved.</p>
+        <div>
+            <a href="https://github.com/DomiAndi" target="_blank" class="text-white mx-2"><i
+                    class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/leslie-jimenez-navarrete-a4670a1ba/" target="_blank"
+                class="text-white mx-2"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

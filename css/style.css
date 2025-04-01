@@ -1,0 +1,223 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F7FC; /* Color de fondo similar */
+}
+
+h1, h2, h3, h4 {
+    color: #050505; /* Color oscuro para los textos */
+}
+
+a {
+    text-decoration: none;
+    color: #030303; /* Color de texto */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1A1A1A; /* Fondo oscuro */
+    border-bottom: 3px solid #333; /* Línea decorativa inferior */
+    padding: 1rem;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2F2F2F; /* Color del texto */
+}
+
+.navbar .navbar-brand:hover {
+    color: #2F2F2F; /* Efecto hover */
+}
+
+.navbar .nav-link {
+    color: #2F2F2F; /* Texto claro */
+    font-weight: 600;
+    margin: 0 0.5rem; /* Espaciado entre enlaces */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.navbar .nav-link:hover {
+    color: #8a7c2d; /* Color dorado al pasar el mouse */
+}
+
+.navbar-toggler {
+    background-color: #EDEDED; /* Fondo claro del botón */
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(255, 255, 255, 0.7)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'); /* Icono blanco */
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Alinea los enlaces al final */
+}
+
+.nav-item .nav-link.active {
+    border-bottom: 2px solid #FFD700; /* Indicador de sección activa */
+}
+
+/* Title Section */
+#title {
+    background-color: #2F2F2F; /* Fondo oscuro */
+    color: #EDEDED;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#title .btn {
+    background-color: #5E5E5E;
+    color: white;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 80px 0;
+}
+
+#portfolio h2 {
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+#portfolio .btn {
+    background-color: #5E5E5E;
+    color: white;
+}
+
+#portfolio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#portfolio .btn:hover {
+    background-color: #4A4A4A;
+    color: #FFF;
+}
+
+#portfolio .btn {
+    z-index: 10;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .portfolio-item img {
+        height: auto; /* Allow images to scale more naturally on smaller screens */
+    }
+}
+
+.portfolio-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+}
+
+/* About Section */
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 100%; /* Asegura que use todo el ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.square-img {
+    width: 150px; /* Tamaño fijo para cuadrado pequeño */
+    height: 150px;
+    object-fit: cover;
+    margin: 20px auto; /* Añade espacio alrededor y centra */
+    border-radius: 8px;
+    display: block; /* Asegura que se centre dentro del contenedor */
+}
+
+.btn-primary {
+    background-color: #5E5E5E !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4A4A4A !important;
+    color: #f8f8f8 !important; /* Color más claro al pasar el cursor */
+}
+
+/* Alineación responsiva */
+@media (max-width: 768px) {
+    #about .row {
+        text-align: center; /* Centra el contenido en pantallas pequeñas */
+    }
+
+    #about img {
+        margin-bottom: 20px; /* Espacio adicional debajo en móviles */
+    }
+
+    #about .col-md-6 {
+        text-align: center;
+        padding: 0 15px; /* Espaciado lateral para texto */
+    }
+}
+
+/* Skills Section */
+#skills {
+    padding: 80px 0;
+}
+
+#skills h2 {
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    padding: 5px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2F2F2F;
+    color: #EDEDED;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#contact button {
+    background-color: #5E5E5E;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #EDEDED;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #EDEDED;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
